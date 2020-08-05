@@ -5,26 +5,27 @@ import studyIcon from "../../assets/images/icons/study.svg";
 import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
 import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
 
-// import { Container } from './styles';
+import "./styles.css";
 
 function Landing() {
   return (
     <div id="page-landing">
-      <div id="page-lading-content" className="container">
+      <div id="page-landing-content" className="container">
         <div className="logo-container">
-          <img src={logoImg} alt="Proffy" />´
+          <img src={logoImg} alt="Proffy" />
           <h2>Your platform of online studies</h2>
         </div>
 
-        <img src={landingImg} alt="Platform of studies" />
+        <img src={landingImg} alt="Studies Platform" className="hero-image" />
 
-        <div className="button-container">
-          <a className="study">
+        <div className="buttons-container">
+          <a href="" className="study">
             <img src={studyIcon} alt="Study" />
             Study
           </a>
-          <a className="give-classes">
-            <img src={giveClassesIcon} alt="Give Classes" />
+
+          <a href="" className="give-classes">
+            <img src={giveClassesIcon} alt="Study" />
             Give Classes
           </a>
         </div>
