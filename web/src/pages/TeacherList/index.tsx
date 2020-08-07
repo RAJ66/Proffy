@@ -4,7 +4,7 @@ import backIcon from "../../assets/images/icons/back.svg";
 import logoIcon from "../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 
-// import { Container } from './styles';
+import "./styles.css";
 
 function TeacherList() {
   return (
