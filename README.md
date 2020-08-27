@@ -32,3 +32,7 @@ This project was made using the follow technologies:
   <li><a href="https://reactnative.dev/">React Native</a></li>
   <li><a href="https://expo.io/">Expo</a></li>
 </ul>
+
+<a href="https://www.linkedin.com/in/vitorbarbosa66/">
+  <img alt="Vitor Barbosa" src="https://img.shields.io/badge/-Vitor%20Barbosa-blue?style=flat&logo=Linkedin&logoColor=white" />
+  </a>
